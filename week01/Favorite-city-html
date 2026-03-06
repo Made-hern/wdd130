@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite City</title>
+</head>
+
+<body>
+
+    <h1>Utila, Honduras</h1>
+
+    <p>
+        Utila is a beautiful island in Honduras known for its crystal clear water,
+        tropical weather, and friendly people. It is a popular destination for
+        diving and relaxing near the Caribbean Sea.
+    </p>
+
+    <p>
+        One of the best things about Utila is the marine life. Many tourists visit
+        the island to see coral reefs, colorful fish, and even whale sharks.
+        It is a peaceful and amazing place to visit.
+    </p>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Utila_Bay_Islands_Honduras.jpg"
+      alt="Utila Island in Honduras" width="400">
+
+</body>
+
+</html>
