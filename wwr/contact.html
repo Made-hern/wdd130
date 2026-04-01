@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="description"
       content="Contact us to book rafting trips or ask questions about our services.">
+    <meta name="author" content="Madelin Hernandez">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | Rafting Adventure</title>
+    <title>Contact us | Rafting Adventure</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -78,17 +79,17 @@
                 <p>Purpose of Message:</p>
 
                 <label>
-                    <input type="radio" name="purpose" value="general" required>
+                    <input type="radio" id="general" name="purpose" value="general" required>
                     General Inquiry
                 </label>
 
                 <label>
-                    <input type="radio" name="purpose" value="reservation">
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
                     Reservation Question
                 </label>
 
                 <label>
-                    <input type="radio" name="purpose" value="suggestion">
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
                     Website Suggestion
                 </label>
 
@@ -96,7 +97,7 @@
                 <textarea id="message" name="message" rows="5" required></textarea>
 
                 <label>
-                    <input type="checkbox" name="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
                     Subscribe me to the monthly newsletter
                 </label>
 
@@ -108,7 +109,13 @@
     </main>
 
     <footer>
-        <p>© 2026 Rafting Adventure | All rights reserved</p>
+        <p>© 2026 White Water Rafting | Madelin Hernandez</p>
+
+        <nav class="socialmedia">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="images/twitter.webp" alt="Twitter"></a>
+        </nav>
     </footer>
 
 </body>
