@@ -396,3 +396,55 @@ button:hover {
         grid-template-columns: 1fr;
     }
 }
+
+/* ===== TRIPS PAGE ===== */
+
+/* GRID */
+.trips-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.trip {
+    background: var(--white);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.trip img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* TABLE */
+.trip-table {
+    margin-top: 30px;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--white);
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .trips-grid {
+        grid-template-columns: 1fr;
+    }
+}
