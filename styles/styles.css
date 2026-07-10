@@ -3,19 +3,18 @@ body {
     margin: 0;
 }
 
-header {
+nav {
     background-color: #003366;
     padding: 1rem;
-}
-
-nav {
     display: flex;
     justify-content: center;
     gap: 2rem;
 }
 
 nav a {
+    display: block;
     color: white;
+    padding: 0.5rem;
     text-decoration: none;
     font-weight: bold;
 }
@@ -28,6 +27,9 @@ main {
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid #000;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
 }
 
 aside {
@@ -45,8 +47,7 @@ aside img {
     height: auto;
 }
 
-h1,
-h2 {
+h1 {
     color: #003366;
 }
 
